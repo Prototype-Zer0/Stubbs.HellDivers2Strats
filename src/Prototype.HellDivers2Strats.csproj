@@ -1,19 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <UseWindowsForms>true</UseWindowsForms>
-    <RootNamespace>Stubbs.HellDivers2Strats</RootNamespace>
-    <AssemblyName>Stubbs.HellDivers2Strats</AssemblyName>
+    <RootNamespace>Prototype.HellDivers2Strats</RootNamespace>
+    <AssemblyName>Prototype.HellDivers2Strats</AssemblyName>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Macro Deck 2">
-      <HintPath>C:\Users\r\AppData\Local\Programs\Macro Deck\Macro Deck 2.dll</HintPath>
-      <Private>false</Private>
+        <HintPath>libs\macro_deck_2.dll</HintPath>
+        <Private>false</Private>
     </Reference>
   </ItemGroup>
 

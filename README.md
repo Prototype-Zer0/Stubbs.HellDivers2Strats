@@ -1,4 +1,5 @@
-﻿# Stubbs.HellDivers2Strats
+﻿# THE ORIGINAL PLUGIN WAS WRITTEN BY STUBBS https://github.com/rstubbs94 GO SHOW HIM SOME LOVE
+# Stubbs.HellDivers2Strats
 
 Macro Deck plugin that automates Helldivers 2 stratagem call-ins from a single deck button. Each action simulates the directional inputs required to request a stratagem in-game.
 
@@ -44,4 +45,3 @@ Copy `Stubbs.HellDivers2Strats.dll`, `ExtensionManifest.json`, and `ExtensionIco
 
 ## License
 Released under the MIT License. See [LICENSE](LICENSE).
-

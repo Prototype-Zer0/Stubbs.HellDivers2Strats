@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using SuchByte.MacroDeck.Plugins;
-using Stubbs.HellDivers2Strats.Actions;
+using Prototype.HellDivers2Strats.Actions;
 
-namespace Stubbs.HellDivers2Strats
+namespace Prototype.HellDivers2Strats
 {
     public class HellDiversPlugin : MacroDeckPlugin
     {

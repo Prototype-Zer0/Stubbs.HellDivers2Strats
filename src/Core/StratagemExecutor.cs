@@ -4,7 +4,7 @@ using System.Threading;
 using System.Windows.Forms;
 using SuchByte.MacroDeck.Logging;
 
-namespace Stubbs.HellDivers2Strats.Core
+namespace Prototype.HellDivers2Strats.Core
 {
     public static class StratagemExecutor
     {
@@ -40,7 +40,7 @@ namespace Stubbs.HellDivers2Strats.Core
                 {
                     if (!KeyMap.TryGetValue(key, out var spec))
                     {
-                        
+
                         continue;
                     }
 

@@ -5,9 +5,9 @@ using System.Windows.Forms;
 using WinFormsComboBox = System.Windows.Forms.ComboBox;
 using SuchByte.MacroDeck.GUI.CustomControls;
 using SuchByte.MacroDeck.Plugins;
-using Stubbs.HellDivers2Strats.Core;
+using Prototype.HellDivers2Strats.Core;
 
-namespace Stubbs.HellDivers2Strats.Configuration
+namespace Prototype.HellDivers2Strats.Configuration
 {
     public partial class StratagemActionConfigControl : ActionConfigControl
     {

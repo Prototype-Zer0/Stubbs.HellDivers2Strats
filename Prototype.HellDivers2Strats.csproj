@@ -1,4 +1,5 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
@@ -7,16 +8,18 @@
     <RootNamespace>Stubbs.HellDivers2Strats</RootNamespace>
     <AssemblyName>Stubbs.HellDivers2Strats</AssemblyName>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <Version>1.0.1</Version>
   </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="Macro Deck 2">
-      <HintPath>C:\Users\r\AppData\Local\Programs\Macro Deck\Macro Deck 2.dll</HintPath>
-      <Private>false</Private>
+        <HintPath>libs\macro_deck_2.dll</HintPath>
+        <Private>false</Private>
     </Reference>
   </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Collections.Immutable" Version="8.0.0" />
   </ItemGroup>
+
 </Project>

@@ -1,11 +1,11 @@
 ﻿{
   "type": "Plugin",
   "name": "HellDivers2Strats",
-  "author": "Stubbs",
-  "repository": "https://github.com/rstubbs94/Stubbs.HellDivers2Strats",
-  "packageId": "Stubbs.HellDivers2Strats",
-  "version": "1.0.0",
+  "author": "Prototype",
+  "repository": "https://github.com/Prototype-Zer0/Prototype.HellDivers2Strats",
+  "packageId": "Prototype.HellDivers2Strats",
+  "version": "1.0.1",
   "target-plugin-api-version": 40,
   "target-macro-deck-version": "2.14.1",
-  "dll": "Stubbs.HellDivers2Strats.dll"
+  "dll": "Prototype.HellDivers2Strats.dll"
 }

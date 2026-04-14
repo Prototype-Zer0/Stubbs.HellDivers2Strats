@@ -1,7 +1,7 @@
 ﻿using System.Collections.Immutable;
 using System.Windows.Forms;
 
-namespace Stubbs.HellDivers2Strats.Core
+namespace Prototype.HellDivers2Strats.Core
 {
     public class StratagemDefinition
     {

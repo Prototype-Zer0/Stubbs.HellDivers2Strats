@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using Stubbs.HellDivers2Strats.Core;
+using Prototype.HellDivers2Strats.Core;
 
-namespace Stubbs.HellDivers2Strats.Configuration
+namespace Prototype.HellDivers2Strats.Configuration
 {
     public class StratagemActionConfig
     {

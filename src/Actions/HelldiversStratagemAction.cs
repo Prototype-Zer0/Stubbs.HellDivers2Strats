@@ -2,10 +2,10 @@
 using SuchByte.MacroDeck.GUI;
 using SuchByte.MacroDeck.GUI.CustomControls;
 using SuchByte.MacroDeck.Plugins;
-using Stubbs.HellDivers2Strats.Configuration;
-using Stubbs.HellDivers2Strats.Core;
+using Prototype.HellDivers2Strats.Configuration;
+using Prototype.HellDivers2Strats.Core;
 
-namespace Stubbs.HellDivers2Strats.Actions
+namespace Prototype.HellDivers2Strats.Actions
 {
     public class HelldiversStratagemAction : PluginAction
     {
