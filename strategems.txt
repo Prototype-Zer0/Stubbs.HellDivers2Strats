@@ -1,239 +1,309 @@
-MG-43 Machine Gun	
-Down Left Down Up Right
+A/AC-8 Autocannon Sentry
+down up right up left up
 
-APW-1 Anti-Materiel Rifle	
-Down Left Right Up Down
+A/ARC-3 Tesla Tower
+down up right up left right
 
-M-105 Stalwart	
-Down Left Down Up Up Left
+A/FLAM-40 Flame Sentry
+down up right down up up
 
-EAT-17 Expendable Anti-Tank	
-Down Down Left Up Right
+A/G-16 Gatling Sentry
+down up right left
 
-GR-8 Recoilless Rifle	
-Down Left Right Right Left
+A/GM-17 Gas Mortar Sentry
+down up right down left
 
-FLAM-40 Flamethrower	
-Down Left Up Down Up
+A/LAS-98 Laser Sentry
+down up right down up right
 
-AC-8 Autocannon	
-Down Left Down Up Up Right
+A/M-12 Mortar Sentry
+down up right right down
 
-MG-206 Heavy Machine Gun	
-Down Left Up Down Down
+A/M-23 EMS Mortar Sentry
+down up right down right
 
-RL-77 Airburst Rocket Launcher	
-Down Up Up Left Right
+A/MG-43 Machine Gun Sentry
+down up right right up
 
-MLS-4X Commando	
-Down Left Up Down Right
+A/MLS-4X Rocket Sentry
+down up right right left
 
-RS-422 Railgun	
-Down Right Down Up Left Right
+AC-8 Autocannon
+down left down up up right
 
-FAF-14 Spear	
-Down Down Up Down Down
+APW-1 Anti-Materiel Rifle
+down left right up down
 
-StA-X3 W.A.S.P. Launcher	
-Down Down Up Down Right
+ARC-3 Arc Thrower
+down right down up left left
 
-Orbital Gatling Barrage	
-Right Down Left Up Up
+AX/AR-23 Guard Dog
+down up left up right down
 
-Orbital Airburst Strike	
-Right Right Right
+AX/ARC-3 K-9
+down up left up right left
 
-Orbital 120mm HE Barrage	
-Right Right Down Left Right Down
+AX/FLAM-75 Hot Dog
+down up left up left left
 
-Orbital 380mm HE Barrage	
-Right Down Up Up Left Down Down
+AX/LAS-5 Rover
+down up left up right right
 
-Orbital Walking Barrage	
-Right Down Right Down Right Down
+AX/TX-13 Dog Breath
+down up left up right up
 
-Orbital Laser	
-Right Down Up Right Down
+B-1 Supply Pack
+down left down up up down
 
-Orbital Napalm Barrage	
-Right Right Down Left Right Up
+B-100 Portable Hellbomb
+down right up up up
 
-Orbital Railcannon Strike	
-Right Up Down Down Right
+B/FLAM-80 Cremator
+down down right down up up
 
-Eagle Strafing Run	
-Up Right Right
+B/MD C4 Pack
+down right up up right up
 
-Eagle Airstrike	
-Up Right Down Right
+CQC-1 One True Flag
+down left right right up
 
-Eagle Cluster Bomb	
-Up Right Down Down Right
+CQC-20 Breaching Hammer
+down left right left up
 
-Eagle Napalm Airstrike	
-Up Right Down Up
+CQC-9 Defoliation Tool
+down left right right down
 
-LIFT-850 Jump Pack	
-Down Up Up Down Up
+Call In Super Destroyer
+up up down down left right left right
 
-Eagle Smoke Strike	
-Up Right Up Down
+Cargo Container
+up up down down right down
 
-Eagle 110mm Rocket Pods	
-Up Right Up Left
+Dark Fluid Vessel
+up left right down up up
 
-Eagle 500kg Bomb	
-Up Right Down Down Down
+E/AT-12 Anti-Tank Emplacement
+down up left right right right
 
-M-102 Fast Recon Vehicle	
-Left Down Right Down Right Down Up
+E/GL-21 Grenadier Battlement
+down right down left right
 
-Orbital Precision Strike	
-Right Right Up
+E/MG-101 HMG Emplacement
+down up left right right left
 
-Orbital Gas Strike	
-Right Right Down Right
+EAT-17 Expendable Anti-Tank
+down down left up right
 
-Orbital EMS Strike	
-Right Right Left Down
+EAT-411 Leveller
+down down left up down
 
-Orbital Smoke Strike	
-Right Right Down Up
+EAT-700 Expendable Napalm
+down down left up left
 
-E/MG-101 HMG Emplacement	
-Down Up Left Right Right Left
+EXO-45 Patriot Exosuit
+left down right up left down down
 
-FX-12 Shield Generator Relay	
-Down Down Left Right Left Right
+EXO-49 Emancipator Exosuit
+left down right up left down up
 
-A/ARC-3 Tesla Tower	
-Down Up Right Up Left Right
+Eagle 110mm Rocket Pods
+up right up left
 
-E/GL-21 Grenadier Battlement	
-Down Right Down Left Right
+Eagle 500kg Bomb
+up right down down down
 
-MD-6 Anti-Personnel Minefield	
-Down Left Up Right
+Eagle Airstrike
+up right down right
 
-B-1 Supply Pack	
-Down Left Down Up Up Down
+Eagle Cluster Bomb
+up right down down right
 
-GL-21 Grenade Launcher	
-Down Left Up Left Down
+Eagle Napalm Airstrike
+up right down up
 
-LAS-98 Laser Cannon	
-Down Left Down Up Left
+Eagle Rearm
+up up left up right
 
-MD-I4 Incendiary Mines	
-Down Left Left Down
+Eagle Smoke Strike
+up right up down
 
-AX/LAS-5 "Guard Dog" Rover	
-Down Up Left Up Right Right
+Eagle Strafing Run
+up right right
 
-SH-20 Ballistic Shield Backpack	
-Down Left Down Down Up Left
+FAF-14 Spear
+down down up down down
 
-ARC-3 Arc Thrower	
-Down Right Down Up Left Left
+FLAM-40 Flamethrower
+down left up down up
 
-MD-17 Anti-Tank Mines	
-Down Left Up Up
+FX-12 Shield Generator Relay
+down down left right left right
 
-LAS-99 Quasar Cannon	
-Down Down Up Left Right
+GL-21 Grenade Launcher
+down left up left down
 
-SH-32 Shield Generator Pack	
-Down Up Left Right Left Right
+GL-28 Belt-Fed Grenade Launcher
+down left up left up up
 
-MD-8 Gas Mines	
-Down Left Left Right
+GL-52 De-Escalator
+down right up left right
 
-A/MG-43 Machine Gun Sentry	
-Down Up Right Right Up
+GR-8 Recoilless Rifle
+down left right right left
 
-A/G-16 Gatling Sentry	
-Down Up Right Left
+Hive Breaker Drill
+left up down right down down
 
-A/M-12 Mortar Sentry	
-Down Up Right Right Down
+LAS-98 Laser Cannon
+down left down up left
 
-AX/AR-23 "Guard Dog"	
-Down Up Left Up Right Down
+LAS-99 Quasar Cannon
+down down up left right
 
-A/AC-8 Autocannon Sentry	
-Down Up Right Up Left Up
+LIFT-182 Warp Pack
+down left right down left right
 
-A/MLS-4X Rocket Sentry	
-Down Up Right Right Left
+LIFT-850 Jump Pack
+down up up down up
 
-A/M-23 EMS Mortar Sentry	
-Down Up Right Down Right
+LIFT-860 Hover Pack
+down up up down left right
 
-EXO-45 Patriot Exosuit	
-Left Down Right Up Left Down Down
+M-1000 Maxigun
+down left right down up up
 
-EXO-49 Emancipator Exosuit	
-Left Down Right Up Left Down Up
+M-102 Fast Recon Vehicle
+left down right down right down up
 
-TX-41 Sterilizer	
-Down Left Up Down Left
+M-105 Stalwart
+down left down up up left
 
-AX/TX-13 "Guard Dog" Dog Breath	
-Down Up Left Up Right Up
+MD-17 Anti-Tank Mines
+down left up up
 
-SH-51 Directional Shield	
-Down Up Left Right Up Up
+MD-6 Anti-Personnel Minefield
+down left up right
 
-E/AT-12 Anti-Tank Emplacement	
-Down Up Left Right Right Right
+MD-8 Gas Mines
+down left left right
 
-A/FLAM-40 Flame Sentry	
-Down Up Right Down Up Up
+MD-I4 Incendiary Mines
+down left left down
 
-B-100 Portable Hellbomb	
-Down Right Up Up Up
+MG-206 Heavy Machine Gun
+down left up down down
 
-LIFT-860 Hover Pack	
-Down Up Up Down Left Right
+MG-43 Machine Gun
+down left down up right
 
-CQC-1 One True Flag	
-Down Left Right Right Up
+MLS-4X Commando
+down left up down right
 
-GL-52 De-Escalator	
-Down Right Up Left Right
+MS-11 Solo Silo
+down up right down down
 
-AX/ARC-3 "Guard Dog" K-9	
-Down Up Left Up Right Left
+NUX-223 Hellbomb
+down up left down up right down up
 
-PLAS-45 Epoch	
-Down Left Up Left Right
+Orbital 120mm HE Barrage
+right right down left right down
 
-A/LAS-98 Laser Sentry	
-Down Up Right Down Up Right
+Orbital 380mm HE Barrage
+right down up up left down down
 
-LIFT-182 Warp Pack	
-Down Left Right Down Left Right
+Orbital Airburst Strike
+right right right
 
-S-11 Speargun	
-Down Right Down Left Up Right
+Orbital EMS Strike
+right right left down
 
-EAT-700 Expendable Napalm	
-Down Down Left Up Left
+Orbital Gas Strike
+right right down right
 
-MS-11 Solo Silo	
-Down Up Right Down Down
+Orbital Gatling Barrage
+right down left up up
 
-Reinforce	
-Up Down Right Left Up
+Orbital Illumination Flare
+right right left left
 
-SoS Beacon	
-Up Down Right Up
+Orbital Laser
+right down up right down
 
-Resupply	
-Down Down Up Right
+Orbital Napalm Barrage
+right right down left right up
 
-Eagle Rearm	
-Up Up Left Up Right
+Orbital Precision Strike
+right right up
 
-Hellbomb	
-Down Up Left Down Up Right Down Up
+Orbital Railcannon Strike
+right up down down right
+
+Orbital Smoke Strike
+right right down up
+
+Orbital Walking Barrage
+right down right down right down
+
+PLAS-45 Epoch
+down left up left right
+
+Prospecting Drill
+down down left right down down
+
+RL-77 Airburst Rocket Launcher
+down up up left right
+
+RS-422 Railgun
+down right down up left right
+
+Reinforce
+up down right left up
+
+Reinforcement Pods
+left right up up up
+
+Resupply
+down down up right
+
+S-11 Speargun
+down right down left up right
+
+SEAF Artillery
+right up up down
+
+SH-20 Ballistic Shield Backpack
+down left down down up left
+
+SH-32 Shield Generator Pack
+down up left right left right
+
+SH-51 Directional Shield
+down up left right up up
+
+SSSD Delivery
+down down down down down up up
+
+Seismic Probe
+up up left right down down
+
+SoS Beacon
+up down right up
+
+StA-X3 W.A.S.P. Launcher
+down down up down right
+
+Super Earth Flag
+down up down up
+
+TD-220 Bastion MK XVI
+left down right down left down up down up
+
+TX-41 Sterilizer
+down left up down left
+
+Tectonic Drill
+up down up down up down
+
+Upload Data
+left right up up up
+
