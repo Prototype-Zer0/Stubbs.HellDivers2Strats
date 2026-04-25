@@ -2,7 +2,7 @@
   "type": "Plugin",
   "name": "HellDivers2Strats",
   "author": "Prototype",
-  "repository": "https://github.com/Prototype-Zer0/Prototype.HellDivers2Strats",
+  "repository": "https://github.com/Prototype-Zer0/Stubbs.HellDivers2Strats",
   "packageId": "Prototype.HellDivers2Strats",
   "version": "1.0.1",
   "target-plugin-api-version": 40,

@@ -8,9 +8,8 @@ namespace Prototype.HellDivers2Strats.Core
 {
     public static class StratagemExecutor
     {
-        private const int DelayBetweenPressesMs = 40;
-        private const int PostCtrlDelayMs = 80;
-        private const int KeyPressDurationMs = 50;
+        private const int DelayBetweenPressesMs = 40; // Reduced delay between keys
+        private const int KeyPressDurationMs = 50;    // Time to hold each key
 
         private static readonly object SyncRoot = new();
 
@@ -27,43 +26,34 @@ namespace Prototype.HellDivers2Strats.Core
         public static void Execute(StratagemDefinition stratagem)
         {
             if (stratagem is null)
-            {
                 throw new ArgumentNullException(nameof(stratagem));
-            }
 
             lock (SyncRoot)
             {
-                KeyPress(LeftControlKey);
-                Thread.Sleep(PostCtrlDelayMs);
+                // Press and HOLD Ctrl immediately (no initial delay)
+                KeyEvent(LeftControlKey, false); // Key Down (hold Ctrl)
 
+                // Press all keys in sequence while Ctrl is held
                 foreach (var key in stratagem.Sequence)
                 {
-                    if (!KeyMap.TryGetValue(key, out var spec))
-                    {
+                    if (!KeyMap.TryGetValue(key, out var spec)) continue;
 
-                        continue;
-                    }
-
-                    KeyPress(spec);
-                    Thread.Sleep(DelayBetweenPressesMs);
+                    KeyEvent(spec, false); // Key Down
+                    Thread.Sleep(KeyPressDurationMs); // Hold key for duration
+                    KeyEvent(spec, true);  // Key Up
+                    Thread.Sleep(DelayBetweenPressesMs); // Short delay between keys
                 }
-            }
-        }
 
-        private static void KeyPress(KeySpec spec)
-        {
-            KeyEvent(spec, false);
-            Thread.Sleep(KeyPressDurationMs);
-            KeyEvent(spec, true);
+                // Release Ctrl LAST (after all keys are done)
+                KeyEvent(LeftControlKey, true); // Key Up (release Ctrl)
+            }
         }
 
         private static void KeyEvent(KeySpec spec, bool keyUp)
         {
             var flags = spec.Extended ? KEYEVENTF_EXTENDEDKEY : 0;
             if (keyUp)
-            {
                 flags |= KEYEVENTF_KEYUP;
-            }
 
             keybd_event(spec.VirtualKey, spec.ScanCode, flags, UIntPtr.Zero);
         }
