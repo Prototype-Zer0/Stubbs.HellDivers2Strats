@@ -24,13 +24,13 @@ The compiled plugin can be found at `src\bin\Release\net8.0-windows\Stubbs.HellD
 
 ## Packaging (.macroDeckPlugin)
 ```powershell
-cd C:\Dev\Stubbs.HellDivers2Strats
+cd <TO WHERE EVER YOUR CODE LIVES>
 Remove-Item dist -Recurse -Force -ErrorAction SilentlyContinue
 mkdir dist
 Copy-Item ExtensionManifest.json, ExtensionIcon.png dist
 Copy-Item src\bin\Release\net8.0-windows\Prototype.HellDivers2Strats.dll dist
-Compress-Archive dist\ExtensionManifest.json,dist\ExtensionIcon.png,dist\Prototype.HellDivers2Strats.dll dist\Prototype.HellDivers2Strats-1.0.3.zip -Force
-Rename-Item dist\Stubbs.HellDivers2Strats-1.0.3.zip Stubbs.HellDivers2Strats-1.0.0.macroDeckPlugin
+Compress-Archive dist\ExtensionManifest.json,dist\ExtensionIcon.png,dist\Prototype.HellDivers2Strats.dll dist\Prototype.HellDivers2Strats-1.0.4.zip -Force
+Rename-Item dist\Prototype.HellDivers2Strats-1.0.4.zip Prototype.HellDivers2Strats-1.0.4.macroDeckPlugin
 ```
 Import the generated `.macroDeckPlugin` via **Extensions -> Install from file** inside Macro Deck and restart the app to activate the plugin.
 
