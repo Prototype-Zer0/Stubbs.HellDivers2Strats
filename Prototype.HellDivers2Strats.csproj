@@ -5,8 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <UseWindowsForms>true</UseWindowsForms>
-    <RootNamespace>Stubbs.HellDivers2Strats</RootNamespace>
-    <AssemblyName>Stubbs.HellDivers2Strats</AssemblyName>
+    <RootNamespace>Prototype.HellDivers2Strats</RootNamespace>
+    <AssemblyName>Prototype.HellDivers2Strats</AssemblyName>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
