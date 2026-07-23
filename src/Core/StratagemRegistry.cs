@@ -58,7 +58,6 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("Eagle Strafing Run", Keys.Up, Keys.Right, Keys.Right),
                 CreateDefinition("EAT-17 Expendable Anti-Tank", Keys.Down, Keys.Down, Keys.Left, Keys.Up, Keys.Right),
                 CreateDefinition("EAT-411 Leveller", Keys.Down, Keys.Down, Keys.Left, Keys.Up, Keys.Down),
-                CreateDefinition("EAT-411 荡平者", Keys.Down, Keys.Down, Keys.Left, Keys.Up, Keys.Down),
                 CreateDefinition("EAT-700 Expendable Napalm", Keys.Down, Keys.Down, Keys.Left, Keys.Up, Keys.Left),
                 CreateDefinition("EXO-45 Patriot Exosuit", Keys.Left, Keys.Down, Keys.Right, Keys.Up, Keys.Left, Keys.Down, Keys.Down),
                 CreateDefinition("EXO-49 Emancipator Exosuit", Keys.Left, Keys.Down, Keys.Right, Keys.Up, Keys.Left, Keys.Down, Keys.Up),
@@ -79,6 +78,8 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("Hover Pack", Keys.Down, Keys.Up, Keys.Up, Keys.Down, Keys.Left, Keys.Right),
                 CreateDefinition("M-1000 Maxigun", Keys.Down, Keys.Left, Keys.Right, Keys.Down, Keys.Up, Keys.Up),
                 CreateDefinition("M-102 Fast Recon Vehicle", Keys.Left, Keys.Down, Keys.Right, Keys.Down, Keys.Right, Keys.Down, Keys.Up),
+                CreateDefinition("Supply FRV", Keys.Left, Keys.Down, Keys.Left, Keys.Left, Keys.Down, Keys.Up, Keys.Right),
+                CreateDefinition("M-104 Incinerator FRV", Keys.Left, Keys.Down, Keys.Right, Keys.Left, Keys.Down, Keys.Up, Keys.Up),
                 CreateDefinition("M-105 Stalwart", Keys.Down, Keys.Left, Keys.Down, Keys.Up, Keys.Up, Keys.Left),
                 CreateDefinition("MD-17 Anti-Tank Mines", Keys.Down, Keys.Left, Keys.Up, Keys.Up),
                 CreateDefinition("MD-6 Anti-Personnel Minefield", Keys.Down, Keys.Left, Keys.Up, Keys.Right),
@@ -114,8 +115,22 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("S-11 Speargun", Keys.Down, Keys.Right, Keys.Down, Keys.Left, Keys.Up, Keys.Right),
                 CreateDefinition("SEAF Artillery", Keys.Right, Keys.Up, Keys.Up, Keys.Down),
                 CreateDefinition("Seismic Probe", Keys.Up, Keys.Up, Keys.Left, Keys.Right, Keys.Down, Keys.Down),
-                CreateDefinition("SSSD Delivery", Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Up, Keys.Up)
+                CreateDefinition("SSSD Delivery", Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Up, Keys.Up),
+                CreateDefinition("Super Earth Flag", Keys.Down, Keys.Up, Keys.Down, Keys.Up),
+                CreateDefinition("SH-20 Ballistic Shield Backpack", Keys.Down, Keys.Left, Keys.Down, Keys.Down, Keys.Up, Keys.Left),
+                CreateDefinition("SH-32 Shield Generator Pack", Keys.Down, Keys.Up, Keys.Left, Keys.Right, Keys.Left, Keys.Right),
+                CreateDefinition("SH-51 Directional Shield", Keys.Down, Keys.Up, Keys.Left, Keys.Right, Keys.Up, Keys.Up),
+                CreateDefinition("SoS Beacon", Keys.Up, Keys.Down, Keys.Right, Keys.Up),
+                CreateDefinition("Super Earth Flag", Keys.Down, Keys.Up, Keys.Down, Keys.Up),
+                CreateDefinition("SSSD Delivery", Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Up, Keys.Up),
+                CreateDefinition("StA-X3 W.A.S.P. Launcher", Keys.Down, Keys.Down, Keys.Up, Keys.Down, Keys.Right),
+                CreateDefinition("Super Earth Flag", Keys.Down, Keys.Up, Keys.Down, Keys.Up),
+                CreateDefinition("TD-220 Bastion MK XVI", Keys.Left, Keys.Down, Keys.Right, Keys.Down, Keys.Left, Keys.Down, Keys.Up, Keys.Down, Keys.Up),
+                CreateDefinition("Tectonic Drill", Keys.Up, Keys.Down, Keys.Up, Keys.Down, Keys.Up, Keys.Down),
+                CreateDefinition("TX-41 Sterilizer", Keys.Down, Keys.Left, Keys.Up, Keys.Down, Keys.Left),
+                CreateDefinition("Upload Data", Keys.Left, Keys.Right, Keys.Up, Keys.Up, Keys.Up)
             })
+
             {
                 builder[definition.Id] = definition;
             }

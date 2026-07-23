@@ -15,10 +15,10 @@ namespace Prototype.HellDivers2Strats.Core
         private static readonly Random Random = new Random();
 
         // Timing constants for human-like behavior
-        private const int MinKeyPressTime = 50;   // Minimum time to hold a key (ms)
-        private const int MaxKeyPressTime = 100;  // Maximum time to hold a key (ms)
-        private const int MinBetweenPresses = 30; // Minimum delay between keys (ms)
-        private const int MaxBetweenPresses = 70; // Maximum delay between keys (ms)
+        private const int MinKeyPressTime = 55;   // Minimum time to hold a key (ms)
+        private const int MaxKeyPressTime = 105;  // Maximum time to hold a key (ms)
+        private const int MinBetweenPresses = 35; // Minimum delay between keys (ms)
+        private const int MaxBetweenPresses = 75; // Maximum delay between keys (ms)
 
         // Sync object for thread safety
         private static readonly object SyncRoot = new();
@@ -47,7 +47,7 @@ namespace Prototype.HellDivers2Strats.Core
                 // their infinite wisdom decided their keyboard
                 // input API is not designed for simulated presses.
                 //TODO: MAKE THIS OS AGNOSTIC
-                Thread.Sleep(Random.Next(0, 150));
+                Thread.Sleep(Random.Next(50, 155));
 
                 // Press and hold Ctrl
                 KeyEvent(LeftControlKey, false);
