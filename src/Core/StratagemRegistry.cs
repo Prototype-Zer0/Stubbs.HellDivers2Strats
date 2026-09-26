@@ -17,6 +17,9 @@ namespace Prototype.HellDivers2Strats.Core
 
             foreach (var definition in new[]
             {
+                foreach (var definition in new[]
+                {
+                CreateDefinition("A/AC-8 Autocannon Sentry", Keys.Down, Keys.Up, Keys.Right, Keys.Up, Keys.Left, Keys.Up),
                 CreateDefinition("A/ARC-3 Tesla Tower", Keys.Down, Keys.Up, Keys.Right, Keys.Up, Keys.Left, Keys.Right),
                 CreateDefinition("A/FLAM-40 Flame Sentry", Keys.Down, Keys.Up, Keys.Right, Keys.Down, Keys.Up, Keys.Up),
                 CreateDefinition("A/G-16 Gatling Sentry", Keys.Down, Keys.Up, Keys.Right, Keys.Left),
@@ -27,7 +30,9 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("A/MG-43 Machine Gun Sentry", Keys.Down, Keys.Up, Keys.Right, Keys.Right, Keys.Up),
                 CreateDefinition("A/MLS-4X Rocket Sentry", Keys.Down, Keys.Up, Keys.Right, Keys.Right, Keys.Left),
                 CreateDefinition("AC-8 Autocannon", Keys.Down, Keys.Left, Keys.Down, Keys.Up, Keys.Up, Keys.Right),
+                CreateDefinition("Activate E-711 Extraction Drill", Keys.Down, Keys.Down, Keys.Left, Keys.Left, Keys.Down, Keys.Down),
                 CreateDefinition("APW-1 Anti-Materiel Rifle", Keys.Down, Keys.Left, Keys.Right, Keys.Up, Keys.Down),
+                CreateDefinition("Aquifer Drill", Keys.Left, Keys.Left, Keys.Left, Keys.Up, Keys.Down, Keys.Right, Keys.Down, Keys.Down),
                 CreateDefinition("ARC-3 Arc Thrower", Keys.Down, Keys.Right, Keys.Down, Keys.Up, Keys.Left, Keys.Left),
                 CreateDefinition("AX/AR-23 Guard Dog", Keys.Down, Keys.Up, Keys.Left, Keys.Up, Keys.Right, Keys.Down),
                 CreateDefinition("AX/ARC-3 K-9", Keys.Down, Keys.Up, Keys.Left, Keys.Up, Keys.Right, Keys.Left),
@@ -40,7 +45,6 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("B/MD C4 Pack", Keys.Down, Keys.Right, Keys.Up, Keys.Up, Keys.Right, Keys.Up),
                 CreateDefinition("Call In Super Destroyer", Keys.Up, Keys.Up, Keys.Down, Keys.Down, Keys.Left, Keys.Right, Keys.Left, Keys.Right),
                 CreateDefinition("Cargo Container", Keys.Up, Keys.Up, Keys.Down, Keys.Down, Keys.Right, Keys.Down),
-                CreateDefinition("Cargo Container", Keys.Up, Keys.Up, Keys.Down, Keys.Down, Keys.Right, Keys.Down),
                 CreateDefinition("CQC-1 One True Flag", Keys.Down, Keys.Left, Keys.Right, Keys.Right, Keys.Up),
                 CreateDefinition("CQC-20 Breaching Hammer", Keys.Down, Keys.Left, Keys.Right, Keys.Left, Keys.Up),
                 CreateDefinition("CQC-9 Defoliation Tool", Keys.Down, Keys.Left, Keys.Right, Keys.Right, Keys.Down),
@@ -52,6 +56,7 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("Eagle 500kg Bomb", Keys.Up, Keys.Right, Keys.Down, Keys.Down, Keys.Down),
                 CreateDefinition("Eagle Airstrike", Keys.Up, Keys.Right, Keys.Down, Keys.Right),
                 CreateDefinition("Eagle Cluster Bomb", Keys.Up, Keys.Right, Keys.Down, Keys.Down, Keys.Right),
+                CreateDefinition("Eagle Gas Airstrike", Keys.Up, Keys.Right, Keys.Left, Keys.Right),
                 CreateDefinition("Eagle Napalm Airstrike", Keys.Up, Keys.Right, Keys.Down, Keys.Up),
                 CreateDefinition("Eagle Rearm", Keys.Up, Keys.Up, Keys.Left, Keys.Up, Keys.Right),
                 CreateDefinition("Eagle Smoke Strike", Keys.Up, Keys.Right, Keys.Up, Keys.Down),
@@ -77,8 +82,8 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("LIFT-850 Jump Pack", Keys.Down, Keys.Up, Keys.Up, Keys.Down, Keys.Up),
                 CreateDefinition("Hover Pack", Keys.Down, Keys.Up, Keys.Up, Keys.Down, Keys.Left, Keys.Right),
                 CreateDefinition("M-1000 Maxigun", Keys.Down, Keys.Left, Keys.Right, Keys.Down, Keys.Up, Keys.Up),
-                CreateDefinition("M-102 Fast Recon Vehicle", Keys.Left, Keys.Down, Keys.Right, Keys.Down, Keys.Right, Keys.Down, Keys.Up),
-                CreateDefinition("Supply FRV", Keys.Left, Keys.Down, Keys.Left, Keys.Left, Keys.Down, Keys.Up, Keys.Right),
+                CreateDefinition("M-102 Gunner FRV", Keys.Left, Keys.Down, Keys.Right, Keys.Down, Keys.Right, Keys.Down, Keys.Up),
+                CreateDefinition("M-103 Supply FRV", Keys.Left, Keys.Down, Keys.Left, Keys.Left, Keys.Down, Keys.Up, Keys.Right),
                 CreateDefinition("M-104 Incinerator FRV", Keys.Left, Keys.Down, Keys.Right, Keys.Left, Keys.Down, Keys.Up, Keys.Up),
                 CreateDefinition("M-105 Stalwart", Keys.Down, Keys.Left, Keys.Down, Keys.Up, Keys.Up, Keys.Left),
                 CreateDefinition("MD-17 Anti-Tank Mines", Keys.Down, Keys.Left, Keys.Up, Keys.Up),
@@ -105,6 +110,7 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("Orbital Smoke Strike", Keys.Right, Keys.Right, Keys.Down, Keys.Up),
                 CreateDefinition("Orbital Walking Barrage", Keys.Right, Keys.Down, Keys.Right, Keys.Down, Keys.Right, Keys.Down),
                 CreateDefinition("PLAS-45 Epoch", Keys.Down, Keys.Left, Keys.Up, Keys.Left, Keys.Right),
+                CreateDefinition("Portable Comms Relay", Keys.Up, Keys.Up, Keys.Down, Keys.Down, Keys.Left, Keys.Left, Keys.Down),
                 CreateDefinition("Prospecting Drill", Keys.Down, Keys.Down, Keys.Left, Keys.Right, Keys.Down, Keys.Down),
                 CreateDefinition("Cargo Container", Keys.Up, Keys.Up, Keys.Down, Keys.Down, Keys.Right, Keys.Down),
                 CreateDefinition("Reinforce", Keys.Up, Keys.Down, Keys.Right, Keys.Left, Keys.Up),
@@ -125,10 +131,14 @@ namespace Prototype.HellDivers2Strats.Core
                 CreateDefinition("SSSD Delivery", Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Down, Keys.Up, Keys.Up),
                 CreateDefinition("StA-X3 W.A.S.P. Launcher", Keys.Down, Keys.Down, Keys.Up, Keys.Down, Keys.Right),
                 CreateDefinition("Super Earth Flag", Keys.Down, Keys.Up, Keys.Down, Keys.Up),
+                CreateDefinition("Tactical Video Camera", Keys.Right, Keys.Down, Keys.Down, Keys.Up, Keys.Left, Keys.Left, Keys.Up),
+                CreateDefinition("TD-110 Maelstrom", Keys.Left, Keys.Down, Keys.Right, Keys.Down, Keys.Left, Keys.Down, Keys.Up, Keys.Left, Keys.Right),
                 CreateDefinition("TD-220 Bastion MK XVI", Keys.Left, Keys.Down, Keys.Right, Keys.Down, Keys.Left, Keys.Down, Keys.Up, Keys.Down, Keys.Up),
                 CreateDefinition("Tectonic Drill", Keys.Up, Keys.Down, Keys.Up, Keys.Down, Keys.Up, Keys.Down),
                 CreateDefinition("TX-41 Sterilizer", Keys.Down, Keys.Left, Keys.Up, Keys.Down, Keys.Left),
                 CreateDefinition("Upload Data", Keys.Left, Keys.Right, Keys.Up, Keys.Up, Keys.Up)
+                })
+
             })
 
             {
